@@ -7,6 +7,7 @@ def generate_launch_description():
     """Launch file which brings up visual slam node configured for Isaac Sim."""
     visual_slam_node = ComposableNode(
         name="visual_slam_node",
+        package="isaac_ros_visual_slam",
         plugin="nvidia::isaac_ros::visual_slam::VisualSlamNode",
         remappings=[
             ("stereo_camera/left/image", "front_stereo_camera/left_rgb/image_raw"),
