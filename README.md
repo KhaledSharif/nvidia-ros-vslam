@@ -1,5 +1,5 @@
-# ros2-vslam
-Quickstart for Visual SLAM in ROS2 using NVIDIA Isaac Sim (See [Prerequisites](https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html))
+# Visual Simultaneous Localization and Mapping (VSLAM)
+Quickstart for GPU-Accelerated VSLAM in NVIDIA Isaac Sim (See [Prerequisites](https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html))
 
 ### Terminal A: Isaac Sim
 ```bash
